@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Refleksomierzacz</title>
+</head>
+<body>
+    <div id="kontrolki">
+        <button id="start">Start</button>
+        <button id="stop" disabled>Stop</button>
+    </div>
+
+    <div id="obszarKlikniecia" style="display:none;"></div>
+
+    <div id="statystyki" style="display:none;">
+        <p>Najkrótszy czas reakcji: <span id="najkrotszyCzas">-</span> ms</p>
+        <p>Najdłuższy czas reakcji: <span id="najdluzszyCzas">-</span> ms</p>
+        <p>Średni czas reakcji: <span id="sredniaCzasow">-</span> ms</p>
+        <p>Liczba kliknięć przed zmianą koloru: <span id="liczbaPrzedklikniec">0</span></p>
+        <p>Najlepszy wynik: <span id="najlepszyCzas">-</span> ms</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
